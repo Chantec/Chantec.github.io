@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #box1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+        }
+
+        #box2 {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box2">
+        <div id="box1"></div>
+    </div>
+
+
+</body>
+
+</html>
